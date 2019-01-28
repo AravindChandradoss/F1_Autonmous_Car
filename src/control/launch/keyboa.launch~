@@ -1,0 +1,5 @@
+<launch>
+
+<node name="keyboard" type="keyboard.py" pkg="control" output="screen"/>
+<node name="talker" pkg="control" type="talker.py"/>
+<node name="serial_node" pkg="rosserial_python" type="serial_node.py" args="/dev/ttyACM0" />

@@ -1,0 +1,11 @@
+<launch>
+
+
+<node name="hokuyo" type="urg_node" pkg="urg_node" args="_ip_address:=192.168.0.10" />
+<node name="serial_node" pkg="rosserial_python" type="serial_node.py" args="/dev/ttyACM0" />
+<node name="dist_finder" pkg="control" type="dist_finder.py" />
+<node name="pid_controller" pkg="control" type="pid_controller.py"/>
+<node name="talker" pkg="control" type="talker.py"/>
+<node name="kill" pkg="control" type="kill.py"/>
+
+</launch>
