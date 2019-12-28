@@ -1,6 +1,8 @@
 # F1_Autonmous_Car
 ROS, LIDAR, Hector SLAM, Nvidia JetsonTK1 :: The Objective is to control a mini-F1 car using LIDAR. 
 
+Refer [F1/10th](https://fiorentini-mslab.engineering.osu.edu/ms-projects/f110-autonomous-racing)
+
 The objective of the project is to drive a mini F1 car autonomously in a benchmark path with obstacles. 
 
 In short,
